@@ -9,11 +9,11 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include "fusion.hpp"
+//#include "fusion.hpp"
 
 int main(int argc, const char * argv[])
 {
-    std::ifstream ip("/Users/karan/Desktop/EKF/EKF/Data.csv");
+    std::ifstream ip("data.csv");
     if(!ip.is_open())
     {
         std::cerr << "Failed to open the data file";
